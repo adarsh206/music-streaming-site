@@ -33,6 +33,12 @@ export const PlayerContextProvider = (props) => {
         setPlayStatus(false);
     }
 
+    const playWithId = async (id) => {
+        await setTrack(songsData[id]);
+        await audioRef.current.play();
+        setPlayStatus(true);
+    }
+
    useEffect(() => {
     setTimeout(() => {
         
@@ -63,7 +69,8 @@ export const PlayerContextProvider = (props) => {
         time, 
         setTime,
         play,
-        pause
+        pause,
+        playWithId
     }
 
 
