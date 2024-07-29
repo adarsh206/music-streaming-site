@@ -160,7 +160,7 @@ export const songsData = [
         id:3,
         name: "Song Four",
         image: img4,
-        file:song1,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
@@ -168,7 +168,7 @@ export const songsData = [
         id:4,
         name: "Song Five",
         image: img5,
-        file:song2,
+        file:song5,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
