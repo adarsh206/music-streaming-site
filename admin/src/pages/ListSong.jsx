@@ -29,7 +29,17 @@ const ListSong = () => {
 
   return (
     <div>
-      List of Songs
+      <p>All Songs List</p>
+      <br />
+      <div>
+        <div className='sm:grid hidden grid-cols-[0.5fr_1fr_2fr_1fr_0.5fr] items-center gap-2.5 p-3 border border-gray-300 text-sm mr-5 bg-gray-100'>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        </div>
+      </div>
     </div>
   )
 }
