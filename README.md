@@ -1,6 +1,6 @@
 # Music Streaming Site 
 
-Build a music streaming site with Full Stack Technology using MERN.
+Build a music streaming site with Full Stack Technology using MERN with the help of Cloudinary for storing images.
 
 # Images 
 
